@@ -9,17 +9,17 @@
 #include <ESP32Servo.h>
 
 // ================== WiFi Credentials ==================
-const char* ssid = "Realme_8";
-const char* password = "shreeram";
+const char* ssid = "WIFI";
+const char* password = "PASSWORD";
 
 // ================== SinricPro Credentials ==================
-#define APP_KEY           "7010cfc3-3a28-4268-9117-ad9b644d7f0f"
-#define APP_SECRET        "d68d8075-d3d3-48bf-92b8-cd15888dd687-544afa5e-4716-4602-8195-91bfc461ffa9"
+#define APP_KEY           "APP_KEY"
+#define APP_SECRET        "APP_SECRET"
 
 // Device IDs
-#define DEVICE_ID_LED1    "68dd0216acd5d3d66b499363"    // LED 1
-#define DEVICE_ID_FAN     "699356d86830d6aa38b2bfab"    // BEDROOM FAN (LED3)
-#define GARAGE_DOOR_ID    "6996d69b17b32c0941bf5602"    // Garage Door
+#define DEVICE_ID_LED1    "DEVICE_ID_LED1"    // LED 1
+#define DEVICE_ID_FAN     "DEVICE_ID_FAN"    // BEDROOM FAN (LED3)
+#define GARAGE_DOOR_ID    "GARAGE_DOOR_ID"    // Garage Door
 
 // ================== Pin Definitions ==================
 #define LED_PIN1          2     // LED 1
